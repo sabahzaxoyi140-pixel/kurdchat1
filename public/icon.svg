@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#4c1d95" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  <!-- Background Circle with Kurd Chat royal purple gradient -->
+  <circle cx="256" cy="256" r="230" fill="url(#purpleGrad)" filter="url(#shadow)" />
+  <!-- Speech Bubble matching video logo -->
+  <path d="M 256 120 C 160 120 90 185 90 268 C 90 310 108 348 140 376 C 136 405 120 435 100 445 C 138 445 180 422 204 407 C 220 413 238 416 256 416 C 352 416 422 351 422 268 C 422 185 352 120 256 120 Z" fill="#ffffff" />
+  <!-- Kurdistan Sun Golden Accent -->
+  <circle cx="380" cy="130" r="32" fill="url(#sunGrad)" />
+  <circle cx="380" cy="130" r="42" fill="none" stroke="#facc15" stroke-width="4" stroke-dasharray="6,4" />
+</svg>

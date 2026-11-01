@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "user_sabah_superadmin",
+      "name": "Sabah Sndi",
+      "username": "sabah",
+      "password": "Sabah22s",
+      "avatar": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=400&q=80",
+      "bio": "بەڕێوەبەرێ گشتی و خودانێ کورد چات 👑 | زاخۆ - دهۆک",
+      "isOnline": true,
+      "isAdmin": true,
+      "isSuperAdmin": true,
+      "adminPermissions": {
+        "canViewChats": true,
+        "canDeleteMessages": true,
+        "canDeleteStories": true,
+        "canBanUsers": true,
+        "canBroadcast": true,
+        "canVerifyUsers": true
+      },
+      "isVerified": true,
+      "createdAt": 1793123363927
+    }
+  ],
+  "messages": [],
+  "stories": [],
+  "bannedUsers": [],
+  "adminName": "Sabah Sndi",
+  "followRequests": [
+    {
+      "id": "freq_1793126288815nn0",
+      "fromUserId": "usr_1793125567375mk3b",
+      "toUserId": "user_sabah_admin",
+      "status": "pending",
+      "createdAt": 1793126288815
+    }
+  ]
+}

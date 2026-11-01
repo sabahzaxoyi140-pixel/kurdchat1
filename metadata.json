@@ -1,0 +1,11 @@
+{
+  "name": "Remix Remix Remix Kurd Chat",
+  "description": "Kurdish real-time messaging application with chats, voice notes, calls, stories, and RTL support.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
